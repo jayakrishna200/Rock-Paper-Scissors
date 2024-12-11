@@ -1,0 +1,69 @@
+.items-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+.items-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.rules-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.close-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.trigger-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.popup-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.image-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.rules-img {
+  height: 600px;
+  width: 600px;
+}
+.close-button {
+ cursor: pointer;
+  border-width: 0px;
+}
+.trigger-button{
+color: #223a5f;
+background-color: #ffffff;
+height: 45px;
+width: 100px;
+border-radius: 5px;
+border-width: 0px;
+font-family: "Bree Serif";
+cursor: pointer;
+font-weight: bold;
+}

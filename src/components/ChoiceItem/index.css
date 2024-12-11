@@ -1,0 +1,13 @@
+.item {
+  margin: 10px;
+}
+
+.choice-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.choice-img {
+  height: 120px;
+  width: 120px;
+}
